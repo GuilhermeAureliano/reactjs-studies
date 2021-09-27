@@ -1,0 +1,16 @@
+* {
+    margin: auto;
+    max-width: 900px;
+}
+
+
+.linha {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+h1 {
+    padding-top: 15px;
+    text-align: center;
+}
