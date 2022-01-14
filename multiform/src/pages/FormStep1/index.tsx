@@ -36,7 +36,7 @@ export const FormStep1 = () => {
     return (
         <Theme>
             <C.Container>
-                <p>Passo 1/3 {state.name}</p>
+                <p>Passo 1/3</p>
                 <h1>Vamos começar com seu nome</h1>
                 <p>Preencha o campo abaixo com seu nome completo</p>
                 <hr/>
@@ -50,7 +50,9 @@ export const FormStep1 = () => {
                     />
                 </label>
 
-                <button onClick={handleNextStep}>Próximo</button>
+                <C.Button>
+                    <button onClick={handleNextStep}>Próximo</button>
+                </C.Button>
             </C.Container>
         </Theme>
     );

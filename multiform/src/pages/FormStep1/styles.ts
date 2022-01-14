@@ -44,6 +44,15 @@ export const Container = styled.div`
         border-radius: 30px;
         cursor: pointer;
         margin-top: 30px;
+
+        &:hover {
+            background-color: #3CB371;
+        }
     }
 `;
 
+export const Button = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
